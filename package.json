@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/emaildisposablechecker-API.git"
   },
   "keywords": [
-    "email disposable checker"," email disposable checker api"," email disposable checker tool"," email disposable checker software"," email disposable checker service"," email disposable checker library"," email disposable checker sdk"," email disposable checker code"," email disposable checker script"," email disposable checker program"," email disposable checker application"," email disposable checker app"," email disposable checker utility"," email disposable checker helper"," email disposable checker helper tool"," email disposable checker helper software"," email disposable checker helper service"," email disposable checker helper library"," email disposable checker helper sdk"," email disposable checker helper code"," email disposable checker helper script"," email disposable checker helper program"," email disposable checker helper application"," email disposable checker helper app"," email disposable checker helper utility"," email disposable checker helper"
+    "email disposable checker","email disposable checker api","email disposable checker tool","email disposable checker software","email disposable checker service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
