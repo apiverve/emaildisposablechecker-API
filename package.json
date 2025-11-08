@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/emaildisposablechecker",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Email Disposable Checker is a simple tool for checking if an email address is disposable. It returns if the email address is disposable or not.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/emaildisposablechecker-API.git"
   },
   "keywords": [
-    "email disposable checker","email disposable checker api","email disposable checker tool","email disposable checker software","email disposable checker service"
+    "email disposable checker", "email disposable checker api", "email disposable checker tool", "email disposable checker software", "email disposable checker service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/emaildisposablechecker-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/emaildisposablechecker?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/emaildisposablechecker?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.9"
+    "axios": "1.13.2"
   }
 }
